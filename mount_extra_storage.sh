@@ -1,6 +1,6 @@
 #!/bin/bash
 DIR="/scratch"
-USERNAME=$(whoami)
+USERNAME="milindsr"
 GROUPNAME=$(id -gn)
 
 sudo mkdir -p $DIR

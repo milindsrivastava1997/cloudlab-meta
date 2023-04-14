@@ -1,2 +1,3 @@
 #!/bin/bash
-cp .vimrc ~/.vimrc
+USERNAME="milindsr"
+cp .vimrc /users/$USERNAME/.vimrc
