@@ -1,3 +1,3 @@
 #!/bin/bash
-USERNAME="milindsr"
-cp .vimrc /users/$USERNAME/.vimrc
+# user-specific vimrc wasn't getting copied, trying to install globally
+cp .vimrc /etc/vim/vimrc.local
